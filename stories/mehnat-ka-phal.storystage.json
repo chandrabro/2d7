@@ -1,0 +1,3428 @@
+{
+  "version": 1,
+  "title": "मेहनत का फल",
+  "fps": 30,
+  "aspect": "16:9",
+  "quality": "high",
+  "bubbleStyle": "rounded",
+  "fadeOut": true,
+  "watermark": "",
+  "characters": [
+    {
+      "id": "ch_ramesh",
+      "name": "रमेश (किसान)",
+      "preset": "indian_farmer",
+      "appearance": {
+        "name": "रमेश (किसान)",
+        "gender": "male",
+        "build": "adult",
+        "weight": "average",
+        "skin": "#b17446",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "short",
+          "color": "#141414"
+        },
+        "facialHair": "mustache",
+        "glasses": "none",
+        "outfit": {
+          "top": "kurta",
+          "topColor": "#f5f0e1",
+          "trimColor": "#c9a227",
+          "sleeves": "long",
+          "bottom": "dhoti",
+          "bottomColor": "#fafafa",
+          "shoes": "sandals",
+          "shoeColor": "#6d4c41",
+          "hat": "turban",
+          "hatColor": "#f57c00",
+          "accessories": [
+            "tilak"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch_sita",
+      "name": "सीता",
+      "preset": "indian_farmer_woman",
+      "appearance": {
+        "name": "सीता",
+        "gender": "female",
+        "build": "adult",
+        "weight": "average",
+        "skin": "#b17446",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "braid",
+          "color": "#141414"
+        },
+        "facialHair": "none",
+        "glasses": "none",
+        "outfit": {
+          "top": "sari",
+          "topColor": "#2e7d32",
+          "trimColor": "#f1c40f",
+          "sleeves": "short",
+          "bottom": "none",
+          "bottomColor": "#2e7d32",
+          "shoes": "sandals",
+          "shoeColor": "#6d4c41",
+          "hat": "none",
+          "hatColor": "#37474f",
+          "accessories": [
+            "bindi",
+            "earrings",
+            "necklace"
+          ],
+          "blouseColor": "#c62828"
+        }
+      }
+    },
+    {
+      "id": "ch_chotu",
+      "name": "छोटू",
+      "preset": "boy_kid",
+      "appearance": {
+        "name": "छोटू",
+        "gender": "male",
+        "build": "child",
+        "weight": "average",
+        "skin": "#f0c29b",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "short",
+          "color": "#7a4a21"
+        },
+        "facialHair": "none",
+        "glasses": "none",
+        "outfit": {
+          "top": "tshirt",
+          "topColor": "#ff7043",
+          "trimColor": "#ffffff",
+          "sleeves": "short",
+          "bottom": "shorts",
+          "bottomColor": "#1565c0",
+          "shoes": "sneakers",
+          "shoeColor": "#43a047",
+          "hat": "cap",
+          "hatColor": "#1565c0",
+          "accessories": []
+        }
+      }
+    },
+    {
+      "id": "ch_dada",
+      "name": "दादा जी",
+      "preset": "grandpa",
+      "appearance": {
+        "name": "दादा जी",
+        "gender": "male",
+        "build": "elder",
+        "weight": "average",
+        "skin": "#e0ac7e",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "receding",
+          "color": "#e0e0e0"
+        },
+        "facialHair": "mustache",
+        "glasses": "none",
+        "outfit": {
+          "top": "kurta",
+          "topColor": "#ffffff",
+          "trimColor": "#c9a227",
+          "sleeves": "long",
+          "bottom": "dhoti",
+          "bottomColor": "#fafafa",
+          "shoes": "sandals",
+          "shoeColor": "#3e2723",
+          "hat": "none",
+          "hatColor": "#37474f",
+          "accessories": [
+            "watch"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch_bhola",
+      "name": "भोला काका",
+      "preset": "shopkeeper",
+      "appearance": {
+        "name": "भोला काका",
+        "gender": "male",
+        "build": "adult",
+        "weight": "heavy",
+        "skin": "#b17446",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "receding",
+          "color": "#141414"
+        },
+        "facialHair": "mustache",
+        "glasses": "none",
+        "outfit": {
+          "top": "shirt",
+          "topColor": "#a1887f",
+          "trimColor": "#90caf9",
+          "sleeves": "short",
+          "bottom": "pants",
+          "bottomColor": "#5d4037",
+          "shoes": "sandals",
+          "shoeColor": "#3e2723",
+          "hat": "none",
+          "hatColor": "#37474f",
+          "accessories": [],
+          "apronColor": "#2e7d32"
+        }
+      }
+    },
+    {
+      "id": "ch_seth",
+      "name": "सेठ धनीराम",
+      "preset": "businessman",
+      "appearance": {
+        "name": "सेठ धनीराम",
+        "gender": "male",
+        "build": "adult",
+        "weight": "heavy",
+        "skin": "#e0ac7e",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "side_part",
+          "color": "#141414"
+        },
+        "facialHair": "none",
+        "glasses": "none",
+        "outfit": {
+          "top": "kurta",
+          "topColor": "#fff3e0",
+          "trimColor": "#8d6e63",
+          "sleeves": "long",
+          "bottom": "pants",
+          "bottomColor": "#263238",
+          "shoes": "formal",
+          "shoeColor": "#111",
+          "hat": "none",
+          "hatColor": "#37474f",
+          "accessories": [
+            "watch"
+          ],
+          "tieColor": "#c62828"
+        }
+      }
+    },
+    {
+      "id": "ch_arjun",
+      "name": "अर्जुन (वैज्ञानिक)",
+      "preset": "scientist",
+      "appearance": {
+        "name": "अर्जुन (वैज्ञानिक)",
+        "gender": "male",
+        "build": "adult",
+        "weight": "average",
+        "skin": "#b17446",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "short",
+          "color": "#141414"
+        },
+        "facialHair": "none",
+        "glasses": "round_glasses",
+        "outfit": {
+          "top": "labcoat",
+          "topColor": "#ffffff",
+          "trimColor": "#4caf50",
+          "sleeves": "long",
+          "bottom": "pants",
+          "bottomColor": "#5d4037",
+          "shoes": "formal",
+          "shoeColor": "#3e2723",
+          "hat": "none",
+          "hatColor": "#37474f",
+          "accessories": [
+            "badge"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch_ramesh_old",
+      "name": "रमेश (बुज़ुर्ग)",
+      "preset": "indian_farmer",
+      "appearance": {
+        "name": "रमेश (बुज़ुर्ग)",
+        "gender": "male",
+        "build": "elder",
+        "weight": "average",
+        "skin": "#b17446",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "short",
+          "color": "#e0e0e0"
+        },
+        "facialHair": "mustache",
+        "glasses": "none",
+        "outfit": {
+          "top": "kurta",
+          "topColor": "#f5f0e1",
+          "trimColor": "#c9a227",
+          "sleeves": "long",
+          "bottom": "dhoti",
+          "bottomColor": "#fafafa",
+          "shoes": "sandals",
+          "shoeColor": "#6d4c41",
+          "hat": "turban",
+          "hatColor": "#f57c00",
+          "accessories": [
+            "tilak"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch_sita_old",
+      "name": "सीता (बुज़ुर्ग)",
+      "preset": "indian_farmer_woman",
+      "appearance": {
+        "name": "सीता (बुज़ुर्ग)",
+        "gender": "female",
+        "build": "elder",
+        "weight": "average",
+        "skin": "#b17446",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "bun",
+          "color": "#e0e0e0"
+        },
+        "facialHair": "none",
+        "glasses": "none",
+        "outfit": {
+          "top": "sari",
+          "topColor": "#2e7d32",
+          "trimColor": "#f1c40f",
+          "sleeves": "short",
+          "bottom": "none",
+          "bottomColor": "#2e7d32",
+          "shoes": "sandals",
+          "shoeColor": "#6d4c41",
+          "hat": "none",
+          "hatColor": "#37474f",
+          "accessories": [
+            "bindi",
+            "earrings",
+            "necklace"
+          ],
+          "blouseColor": "#c62828"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "sc_14re",
+      "name": "१. भोर – शीर्षक",
+      "background": "barn_yard",
+      "duration": 22,
+      "tod": "dawn",
+      "weather": "sunrays",
+      "filter": "none",
+      "vignette": true,
+      "transition": "cut",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "zoom_in"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ramesh",
+          "x": 560,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_23z1",
+              "action": "yawn",
+              "start": 0.5,
+              "end": 3.5,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_334u",
+              "action": "idle",
+              "start": 3.5,
+              "end": 16.4,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4ak",
+              "action": "talk",
+              "start": 16.4,
+              "end": 20.35,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_537f",
+              "action": "walk",
+              "start": 20.35,
+              "end": 22,
+              "toX": 1180,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_sita",
+          "x": 940,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_66f1",
+              "action": "idle",
+              "start": 0,
+              "end": 13.45,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_75ua",
+              "action": "talk",
+              "start": 13.45,
+              "end": 16,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_841a",
+              "action": "wave",
+              "start": 20.35,
+              "end": 22,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_963d",
+          "actor": 0,
+          "text": "सूर्यपुर गाँव में रमेश नाम का एक ग़रीब किसान रहता था।",
+          "start": 4.4,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.3,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_b1sn",
+          "actor": 0,
+          "text": "उसके पास बंजर ज़मीन थी, पर सपने बहुत बड़े थे।",
+          "start": 9.1,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.95,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_d4pv",
+          "actor": 1,
+          "text": "रोटी बाँध दी है, खा लेना।",
+          "start": 13.45,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.55,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 1.25,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_e5na",
+          "actor": 0,
+          "text": "चिंता मत करो सीता, आज पूरा खेत जोतकर ही लौटूँगा।",
+          "start": 16.4,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.95,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_acw",
+          "text": "सूर्यपुर गाँव में रमेश नाम का एक ग़रीब किसान रहता था।",
+          "start": 4.4,
+          "end": 9,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_c5xe",
+          "text": "उसके पास बंजर ज़मीन थी, पर सपने बहुत बड़े थे।",
+          "start": 9.1,
+          "end": 13.35,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_f336",
+          "text": "मेहनत का फल",
+          "start": 0.3,
+          "end": 4.2,
+          "style": "title",
+          "position": "center",
+          "size": 0.13,
+          "color": "#ffd166",
+          "font": "display"
+        },
+        {
+          "id": "cp_g6ed",
+          "text": "एक किसान की प्रेरणादायक कहानी",
+          "start": 1.4,
+          "end": 4.2,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.045,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 11
+    },
+    {
+      "id": "sc_h5y9",
+      "name": "२. गाँव के ताने",
+      "background": "vegetable_farm",
+      "duration": 22,
+      "tod": "day",
+      "weather": "none",
+      "filter": "none",
+      "vignette": true,
+      "transition": "fade",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ramesh",
+          "x": 430,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_i4ir",
+              "action": "dig",
+              "start": 0,
+              "end": 8.5,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_j4yu",
+              "action": "talk",
+              "start": 8.5,
+              "end": 12.1,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_k1pp",
+              "action": "dig",
+              "start": 12.1,
+              "end": 16.15,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_l6a9",
+              "action": "talk",
+              "start": 16.15,
+              "end": 21.15,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_m5no",
+              "action": "dig",
+              "start": 21.15,
+              "end": 22,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_bhola",
+          "x": 930,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_n4yr",
+              "action": "laugh",
+              "start": 3.45,
+              "end": 8.5,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_o6l6",
+              "action": "talk",
+              "start": 12.5,
+              "end": 15.75,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_p5y",
+              "action": "laugh",
+              "start": 15.75,
+              "end": 16.15,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_qlm",
+              "action": "shake_head",
+              "start": 21.15,
+              "end": 22,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_r3w1",
+          "actor": 0,
+          "text": "गाँव वाले उस पर हँसते थे।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.55,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_t61z",
+          "actor": 1,
+          "text": "रमेश! इस पथरीली ज़मीन में घास भी नहीं उगती, तू क्या उगाएगा?",
+          "start": 3.45,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.65,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.95,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_u5hu",
+          "actor": 0,
+          "text": "काका, ज़मीन बंजर नहीं होती, उसे बस मेहनत चाहिए।",
+          "start": 8.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.6,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_v59o",
+          "actor": 1,
+          "text": "हा हा! सपने छोड़, शहर जाकर मज़दूरी कर।",
+          "start": 12.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.25,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.95,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_w14u",
+          "actor": 0,
+          "text": "मैं हार नहीं मानूँगा। धरती पसीना बहाने वाले को कभी ख़ाली नहीं लौटाती।",
+          "start": 16.15,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_s277",
+          "text": "गाँव वाले उस पर हँसते थे।",
+          "start": 0.5,
+          "end": 3.35,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 21
+    },
+    {
+      "id": "sc_x1gk",
+      "name": "३. दिन-रात की मेहनत",
+      "background": "vegetable_farm",
+      "duration": 21,
+      "tod": "day",
+      "weather": "none",
+      "filter": "warm",
+      "vignette": true,
+      "transition": "dissolve",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "pan_lr"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ramesh",
+          "x": 560,
+          "y": 655,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_y3c9",
+              "action": "dig",
+              "start": 0,
+              "end": 8.85,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_z5q6",
+              "action": "wipe",
+              "start": 8.85,
+              "end": 12.45,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1014j",
+              "action": "talk",
+              "start": 12.85,
+              "end": 15.4,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1138h",
+              "action": "sow",
+              "start": 15.8,
+              "end": 21,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_chotu",
+          "x": 120,
+          "y": 665,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_121i3",
+              "action": "run",
+              "start": 0.3,
+              "end": 4.85,
+              "toX": 860,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1341t",
+              "action": "idle",
+              "start": 4.85,
+              "end": 12.85,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_142ly",
+              "action": "jump_joy",
+              "start": 12.85,
+              "end": 15.4,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_155n7",
+              "action": "nod",
+              "start": 20.1,
+              "end": 21,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_166cf",
+          "actor": 0,
+          "text": "सुबह से शाम तक रमेश खेत में पसीना बहाता रहा।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.95,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_186bp",
+          "actor": 1,
+          "text": "बाबा, आप थकते नहीं? कुर्ता पसीने से भीग गया।",
+          "start": 4.85,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.6,
+          "voice": "hi-IN",
+          "rate": 1.05,
+          "pitch": 1.7,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_193fd",
+          "actor": 0,
+          "text": "तेरी मुस्कान देखकर सारी थकान उड़ जाती है, बेटा।",
+          "start": 8.85,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.6,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_1a7e2",
+          "actor": 1,
+          "text": "मैं बड़ा होकर आपकी मदद करूँगा!",
+          "start": 12.85,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.55,
+          "voice": "hi-IN",
+          "rate": 1.05,
+          "pitch": 1.7,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_1b42f",
+          "actor": 0,
+          "text": "तू बस ख़ूब पढ़ना। तेरी किताबें ही मेरी असली फ़सल हैं।",
+          "start": 15.8,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.3,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_173sh",
+          "text": "सुबह से शाम तक रमेश खेत में पसीना बहाता रहा।",
+          "start": 0.5,
+          "end": 4.75,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 31
+    },
+    {
+      "id": "sc_1c1n2",
+      "name": "४. मीलों दूर से पानी",
+      "background": "riverbank",
+      "duration": 13,
+      "tod": "sunset",
+      "weather": "none",
+      "filter": "none",
+      "vignette": true,
+      "transition": "fade",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "wide"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ramesh",
+          "x": 160,
+          "y": 655,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_1d4sq",
+              "action": "carry_heavy",
+              "start": 0,
+              "end": 5.45,
+              "toX": 700,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1erd",
+              "action": "drink",
+              "start": 5.45,
+              "end": 8.7,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1f2qg",
+              "action": "talk",
+              "start": 9.1,
+              "end": 12,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1gkd",
+              "action": "carry_heavy",
+              "start": 12,
+              "end": 13,
+              "toX": 1150,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_sita",
+          "x": 1100,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_1h1gz",
+              "action": "idle",
+              "start": 0,
+              "end": 5.45,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1i2qs",
+              "action": "talk",
+              "start": 5.45,
+              "end": 8.7,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1j4ln",
+              "action": "namaste",
+              "start": 12,
+              "end": 13,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_1k6w",
+          "actor": 0,
+          "text": "खेत नदी से दूर था। रमेश रोज़ मीलों चलकर पानी लाता था।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.65,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_1m2c8",
+          "actor": 1,
+          "text": "कंधे दुख रहे होंगे, थोड़ा आराम कर लीजिए।",
+          "start": 5.45,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.25,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 1.25,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_1n4aw",
+          "actor": 0,
+          "text": "आराम फ़सल कटने के बाद करूँगा, सीता।",
+          "start": 9.1,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.9,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_1l31y",
+          "text": "खेत नदी से दूर था। रमेश रोज़ मीलों चलकर पानी लाता था।",
+          "start": 0.5,
+          "end": 5.45,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 41
+    },
+    {
+      "id": "sc_1o75h",
+      "name": "५. हरे अंकुर",
+      "background": "vegetable_farm",
+      "duration": 14,
+      "tod": "day",
+      "weather": "sunrays",
+      "filter": "none",
+      "vignette": true,
+      "transition": "dissolve",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "zoom_out"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ramesh",
+          "x": 480,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_1p1zr",
+              "action": "water",
+              "start": 0,
+              "end": 4.15,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1q32j",
+              "action": "cheer",
+              "start": 4.15,
+              "end": 8.1,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1r3ul",
+              "action": "thumbs_up",
+              "start": 8.1,
+              "end": 14,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_sita",
+          "x": 760,
+          "y": 655,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_1s7cx",
+              "action": "pluck",
+              "start": 0,
+              "end": 8.5,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1t5r1",
+              "action": "clap",
+              "start": 8.5,
+              "end": 10.7,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1u48m",
+              "action": "laugh",
+              "start": 10.7,
+              "end": 14,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_chotu",
+          "x": 1000,
+          "y": 665,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_1v5g1",
+              "action": "jump_joy",
+              "start": 8.5,
+              "end": 14,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_1w6oq",
+          "actor": 0,
+          "text": "हफ़्तों बाद खेत में हरे-हरे अंकुर फूट पड़े।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.25,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_1y4m",
+          "actor": 0,
+          "text": "देखो सीता! मेरी मेहनत ने मिट्टी में जान डाल दी!",
+          "start": 4.15,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.95,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_1z5xp",
+          "actor": 1,
+          "text": "इस बार फ़सल ज़रूर लहलहाएगी!",
+          "start": 8.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.2,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 1.25,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_203zt",
+          "actor": 2,
+          "text": "हुर्रे! बाबा जीत गए!",
+          "start": 11.1,
+          "source": "tts",
+          "audioId": null,
+          "duration": 1.85,
+          "voice": "hi-IN",
+          "rate": 1.05,
+          "pitch": 1.7,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_1x6qo",
+          "text": "हफ़्तों बाद खेत में हरे-हरे अंकुर फूट पड़े।",
+          "start": 0.5,
+          "end": 4.05,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 51
+    },
+    {
+      "id": "sc_214g",
+      "name": "६. तूफ़ानी रात",
+      "background": "vegetable_farm",
+      "duration": 17,
+      "tod": "night",
+      "weather": "rain",
+      "filter": "cool",
+      "vignette": true,
+      "transition": "fade",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "shake"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ramesh",
+          "x": 600,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_2231k",
+              "action": "scared",
+              "start": 0,
+              "end": 5.9,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_234j8",
+              "action": "talk",
+              "start": 5.9,
+              "end": 9.15,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2451y",
+              "action": "run",
+              "start": 12.5,
+              "end": 17,
+              "toX": 120,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_sita",
+          "x": 900,
+          "y": 655,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_255d4",
+              "action": "scared",
+              "start": 0,
+              "end": 9.55,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_26vb",
+              "action": "talk",
+              "start": 9.55,
+              "end": 12.1,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_276tk",
+              "action": "idle",
+              "start": 12.1,
+              "end": 17,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_289e",
+          "actor": 0,
+          "text": "पर कुदरत को अभी और परीक्षा लेनी थी। एक रात भयंकर तूफ़ान आया।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_2a47u",
+          "actor": 0,
+          "text": "हे भगवान! मेरी फ़सल! मुझे खेत जाना होगा!",
+          "start": 5.9,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.25,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "shout",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_2b3mc",
+          "actor": 1,
+          "text": "रुकिए! बाहर बहुत ख़तरनाक तूफ़ान है!",
+          "start": 9.55,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.55,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 1.25,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "shout",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_2c6xr",
+          "actor": 0,
+          "text": "मेरी चार महीने की मेहनत बह जाएगी!",
+          "start": 12.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.9,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "shout",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_293lb",
+          "text": "पर कुदरत को अभी और परीक्षा लेनी थी। एक रात भयंकर तूफ़ान आया।",
+          "start": 0.5,
+          "end": 5.8,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 61
+    },
+    {
+      "id": "sc_2d74y",
+      "name": "७. उजड़ा खेत",
+      "background": "vegetable_farm",
+      "duration": 16,
+      "tod": "dawn",
+      "weather": "fog",
+      "filter": "cool",
+      "vignette": true,
+      "transition": "fade",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "zoom_in"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ramesh",
+          "x": 500,
+          "y": 655,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_2e5ib",
+              "action": "kneel",
+              "start": 0,
+              "end": 4.5,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2f2u5",
+              "action": "cry",
+              "start": 4.5,
+              "end": 14.7,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2g6a9",
+              "action": "think",
+              "start": 14.7,
+              "end": 16,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_sita",
+          "x": 800,
+          "y": 655,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_2h1yv",
+              "action": "sad_walk",
+              "start": 0,
+              "end": 8.5,
+              "toX": 700,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2i5d",
+              "action": "hug",
+              "start": 8.5,
+              "end": 11.75,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2j7j9",
+              "action": "idle",
+              "start": 11.75,
+              "end": 16,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_chotu",
+          "x": 1020,
+          "y": 665,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_2k2a",
+              "action": "cry",
+              "start": 0,
+              "end": 12.15,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2l2ma",
+              "action": "talk",
+              "start": 12.15,
+              "end": 14.7,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2m6gi",
+              "action": "sad_walk",
+              "start": 14.7,
+              "end": 16,
+              "toX": 900,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_2n544",
+          "actor": 0,
+          "text": "सुबह तक सारी फ़सल मिट्टी में मिल चुकी थी।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.6,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_2p5hv",
+          "actor": 0,
+          "text": "सब ख़त्म हो गया सीता... सारी मेहनत बेकार गई।",
+          "start": 4.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.6,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_2q2it",
+          "actor": 1,
+          "text": "ऐसा मत कहिए, हम सब आपके साथ हैं।",
+          "start": 8.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.25,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 1.25,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_2r4rh",
+          "actor": 2,
+          "text": "बाबा, रोइए मत। मैं हूँ ना!",
+          "start": 12.15,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.55,
+          "voice": "hi-IN",
+          "rate": 1.05,
+          "pitch": 1.7,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_2o1a6",
+          "text": "सुबह तक सारी फ़सल मिट्टी में मिल चुकी थी।",
+          "start": 0.5,
+          "end": 4.4,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 71
+    },
+    {
+      "id": "sc_2s35j",
+      "name": "८. दादा जी की सीख",
+      "background": "barn_yard",
+      "duration": 35,
+      "tod": "sunset",
+      "weather": "none",
+      "filter": "warm",
+      "vignette": true,
+      "transition": "dissolve",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ramesh",
+          "x": 520,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_2t59z",
+              "action": "sit",
+              "start": 0,
+              "end": 8.15,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2uzq",
+              "action": "sit_talk",
+              "start": 8.15,
+              "end": 13.15,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2vso",
+              "action": "sit",
+              "start": 13.15,
+              "end": 22.6,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2w15a",
+              "action": "think",
+              "start": 22.6,
+              "end": 28.65,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2x29f",
+              "action": "thumbs_up",
+              "start": 29.05,
+              "end": 35,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_dada",
+          "x": 880,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_2y1j3",
+              "action": "talk",
+              "start": 5.55,
+              "end": 7.75,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2z71a",
+              "action": "idle",
+              "start": 7.75,
+              "end": 13.55,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_306id",
+              "action": "talk",
+              "start": 13.55,
+              "end": 28.65,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_316c8",
+              "action": "namaste",
+              "start": 33,
+              "end": 35,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_324uy",
+          "actor": 0,
+          "text": "शाम को रमेश के बूढ़े पिता, दादा जी, उसके पास आकर बैठे।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.65,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_341ba",
+          "actor": 1,
+          "text": "बेटा, क्या सोच रहा है?",
+          "start": 5.55,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.2,
+          "voice": "hi-IN",
+          "rate": 0.9,
+          "pitch": 0.6,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_353t4",
+          "actor": 0,
+          "text": "बाबूजी, जी-जान लगाई, फिर भी सब बर्बाद हो गया। अब हिम्मत नहीं बची।",
+          "start": 8.15,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_3621p",
+          "actor": 1,
+          "text": "नदी पहाड़ से टकराती है, तो रुकती नहीं, रास्ता बदल लेती है।",
+          "start": 13.55,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.65,
+          "voice": "hi-IN",
+          "rate": 0.9,
+          "pitch": 0.6,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_376je",
+          "actor": 1,
+          "text": "गिरना हार नहीं है, गिरकर न उठना हार है।",
+          "start": 18.6,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.6,
+          "voice": "hi-IN",
+          "rate": 0.9,
+          "pitch": 0.6,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_383ra",
+          "actor": 1,
+          "text": "तूने बीज बोए थे, हौसला तो नहीं बोया था? वह अब भी तेरे भीतर ज़िंदा है।",
+          "start": 22.6,
+          "source": "tts",
+          "audioId": null,
+          "duration": 6.05,
+          "voice": "hi-IN",
+          "rate": 0.9,
+          "pitch": 0.6,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_394yd",
+          "actor": 0,
+          "text": "आप सही कहते हैं बाबूजी। मैं फिर से शुरू करूँगा!",
+          "start": 29.05,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.95,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "shout",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_33102",
+          "text": "शाम को रमेश के बूढ़े पिता, दादा जी, उसके पास आकर बैठे।",
+          "start": 0.5,
+          "end": 5.45,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 81
+    },
+    {
+      "id": "sc_3a49d",
+      "name": "९. नई शुरुआत",
+      "background": "vegetable_farm",
+      "duration": 17,
+      "tod": "dawn",
+      "weather": "sunrays",
+      "filter": "none",
+      "vignette": true,
+      "transition": "fade",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "zoom_in"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ramesh",
+          "x": 460,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_3b5yx",
+              "action": "pray",
+              "start": 0.4,
+              "end": 9.5,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_3c7i6",
+              "action": "dig",
+              "start": 9.9,
+              "end": 17,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_sita",
+          "x": 760,
+          "y": 655,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_3d75t",
+              "action": "idle",
+              "start": 0,
+              "end": 9.9,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_3e23n",
+              "action": "dig",
+              "start": 9.9,
+              "end": 17,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_chotu",
+          "x": 1000,
+          "y": 665,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_3f5rj",
+              "action": "idle",
+              "start": 0,
+              "end": 13.2,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_3g6i3",
+              "action": "water",
+              "start": 13.2,
+              "end": 17,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_3h38c",
+          "actor": 0,
+          "text": "सुबह होते ही रमेश फिर खेत में था, पहले से ज़्यादा हौसले के साथ।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.35,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_3j37r",
+          "actor": 0,
+          "text": "हे धरती माँ, एक बार फिर आशीर्वाद दो।",
+          "start": 6.25,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.25,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_3k4ib",
+          "actor": 1,
+          "text": "आज से यह खेत हम सबका है।",
+          "start": 9.9,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.9,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 1.25,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_3l27g",
+          "actor": 2,
+          "text": "मैं भी पानी दूँगा, बाबा!",
+          "start": 13.2,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.2,
+          "voice": "hi-IN",
+          "rate": 1.05,
+          "pitch": 1.7,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_3i3z4",
+          "text": "सुबह होते ही रमेश फिर खेत में था, पहले से ज़्यादा हौसले के साथ।",
+          "start": 0.5,
+          "end": 6.15,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 91
+    },
+    {
+      "id": "sc_3m6c6",
+      "name": "१०. दिन बीते, महीने बीते",
+      "background": "riverbank",
+      "duration": 10,
+      "tod": "day",
+      "weather": "leaves",
+      "filter": "none",
+      "vignette": true,
+      "transition": "dissolve",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "pan_rl"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ramesh",
+          "x": 1100,
+          "y": 655,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_3n4ym",
+              "action": "carry_heavy",
+              "start": 0,
+              "end": 6,
+              "toX": 350,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_3o6vh",
+              "action": "carry_heavy",
+              "start": 6,
+              "end": 10,
+              "toX": 1100,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_chotu",
+          "x": 300,
+          "y": 665,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_3p6wk",
+              "action": "carry_heavy",
+              "start": 1,
+              "end": 7,
+              "toX": 900,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_3q68a",
+              "action": "idle",
+              "start": 7,
+              "end": 10,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_3r45u",
+          "actor": 0,
+          "text": "दिन बीते, महीने बीते। कभी धूप, कभी बारिश, पर रमेश का हौसला नहीं डिगा।",
+          "start": 3.2,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.35,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_3szn",
+          "text": "दिन बीते, महीने बीते। कभी धूप, कभी बारिश, पर रमेश का हौसला नहीं डिगा।",
+          "start": 3.2,
+          "end": 8.85,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_3t6sq",
+          "text": "दिन बीते... महीने बीते...",
+          "start": 0.4,
+          "end": 3.2,
+          "style": "title",
+          "position": "center",
+          "size": 0.08,
+          "color": "#ffffff",
+          "font": "display"
+        }
+      ],
+      "seed": 101
+    },
+    {
+      "id": "sc_3u1df",
+      "name": "११. चाँदनी रात की रखवाली",
+      "background": "vegetable_farm",
+      "duration": 16,
+      "tod": "night",
+      "weather": "none",
+      "filter": "none",
+      "vignette": true,
+      "transition": "fade",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ramesh",
+          "x": 560,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_3v3we",
+              "action": "look_around",
+              "start": 0,
+              "end": 5.55,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_3wy1",
+              "action": "sit",
+              "start": 5.55,
+              "end": 9.55,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_3x2xo",
+              "action": "sit_talk",
+              "start": 9.55,
+              "end": 14.55,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_3y4pd",
+              "action": "sit",
+              "start": 14.55,
+              "end": 16,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_chotu",
+          "x": 1000,
+          "y": 665,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_3z2p8",
+              "action": "walk",
+              "start": 0.5,
+              "end": 5.55,
+              "toX": 760,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4041j",
+              "action": "idle",
+              "start": 5.55,
+              "end": 16,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_4159f",
+          "actor": 0,
+          "text": "रात को भी रमेश खेत की रखवाली करता। चाँद-तारे उसके साथी थे।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.65,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_435xf",
+          "actor": 1,
+          "text": "बाबा, अब सो जाइए, कल फिर काम करना है।",
+          "start": 5.55,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.6,
+          "voice": "hi-IN",
+          "rate": 1.05,
+          "pitch": 1.7,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_441r4",
+          "actor": 0,
+          "text": "जब सपना सच होने वाला हो, तो नींद थोड़ा इंतज़ार कर सकती है।",
+          "start": 9.55,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_422hr",
+          "text": "रात को भी रमेश खेत की रखवाली करता। चाँद-तारे उसके साथी थे।",
+          "start": 0.5,
+          "end": 5.45,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 111
+    },
+    {
+      "id": "sc_455u9",
+      "name": "१२. सुनहरी फ़सल",
+      "background": "sunflower_field",
+      "duration": 22,
+      "tod": "day",
+      "weather": "sunrays",
+      "filter": "warm",
+      "vignette": true,
+      "transition": "circle",
+      "transitionDuration": 1.2,
+      "camera": {
+        "preset": "zoom_out"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ramesh",
+          "x": 640,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_466cz",
+              "action": "look_around",
+              "start": 0,
+              "end": 17.3,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_475un",
+              "action": "cheer",
+              "start": 17.3,
+              "end": 21.25,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4843w",
+              "action": "namaste",
+              "start": 21.25,
+              "end": 22,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_sita",
+          "x": 940,
+          "y": 655,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_494lt",
+              "action": "clap",
+              "start": 13.65,
+              "end": 16.9,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4a2xj",
+              "action": "laugh",
+              "start": 16.9,
+              "end": 22,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_chotu",
+          "x": 330,
+          "y": 665,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_4b6f6",
+              "action": "jump_joy",
+              "start": 9.65,
+              "end": 13.25,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4c7j6",
+              "action": "cheer",
+              "start": 13.25,
+              "end": 22,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_4d3dq",
+          "actor": 0,
+          "text": "फिर वह सुबह आई, जिसका रमेश को महीनों से इंतज़ार था। पूरा खेत सोने-सा चमक उठा।",
+          "start": 3.2,
+          "source": "tts",
+          "audioId": null,
+          "duration": 6.05,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_4f4jp",
+          "actor": 2,
+          "text": "बाबा! देखिए, पूरा खेत सोने जैसा चमक रहा है!",
+          "start": 9.65,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.6,
+          "voice": "hi-IN",
+          "rate": 1.05,
+          "pitch": 1.7,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_4g1ph",
+          "actor": 1,
+          "text": "यह फ़सल नहीं, आपकी मेहनत का सोना है!",
+          "start": 13.65,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.25,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 1.25,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_4h3i7",
+          "actor": 0,
+          "text": "धरती माँ ने मेरी सुन ली! हमारी मेहनत रंग लाई!",
+          "start": 17.3,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.95,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "shout",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_4e7nm",
+          "text": "फिर वह सुबह आई, जिसका रमेश को महीनों से इंतज़ार था। पूरा खेत सोने-सा चमक उठा।",
+          "start": 3.2,
+          "end": 9.55,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_4i2xl",
+          "text": "और फिर वह सुबह आई...",
+          "start": 0.3,
+          "end": 3,
+          "style": "title",
+          "position": "center",
+          "size": 0.075,
+          "color": "#ffffff",
+          "font": "display"
+        }
+      ],
+      "seed": 121
+    },
+    {
+      "id": "sc_4j3py",
+      "name": "१३. मेहनत का इनाम",
+      "background": "barn_yard",
+      "duration": 28,
+      "tod": "day",
+      "weather": "none",
+      "filter": "none",
+      "vignette": true,
+      "transition": "dissolve",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ramesh",
+          "x": 610,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_4k7gy",
+              "action": "namaste",
+              "start": 12.3,
+              "end": 12.7,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4l4ip",
+              "action": "talk",
+              "start": 12.7,
+              "end": 16.65,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4m9m",
+              "action": "hug",
+              "start": 21.7,
+              "end": 22.1,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4n62g",
+              "action": "talk",
+              "start": 22.1,
+              "end": 26.4,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4o4r5",
+              "action": "thumbs_up",
+              "start": 26.4,
+              "end": 28,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_seth",
+          "x": 390,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_4p7bm",
+              "action": "talk",
+              "start": 6.6,
+              "end": 12.3,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4q2df",
+              "action": "clap",
+              "start": 16.65,
+              "end": 17.05,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4r2pa",
+              "action": "idle",
+              "start": 17.05,
+              "end": 28,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_bhola",
+          "x": 900,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_4s18i",
+              "action": "idle",
+              "start": 0,
+              "end": 17.05,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4t56w",
+              "action": "namaste",
+              "start": 17.05,
+              "end": 21.7,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4u620",
+              "action": "nod",
+              "start": 21.7,
+              "end": 28,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_4v386",
+          "actor": 0,
+          "text": "रमेश की फ़सल की चर्चा दूर-दूर तक फैल गई। शहर से सेठ धनीराम भी आए।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.7,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_4x60p",
+          "actor": 1,
+          "text": "रमेश जी, ऐसी फ़सल पहले कभी नहीं देखी। मैं पूरी फ़सल दुगुने दाम में लूँगा!",
+          "start": 6.6,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.7,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.7,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_4y59f",
+          "actor": 0,
+          "text": "धन्यवाद सेठ जी। यह मेरे पूरे परिवार की मेहनत है।",
+          "start": 12.7,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.95,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_4z7lj",
+          "actor": 2,
+          "text": "रमेश, मुझे माफ़ कर दे। मैंने तेरी मेहनत को कम आँका था।",
+          "start": 17.05,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.65,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.95,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_5049",
+          "actor": 0,
+          "text": "काका, मेहनत कभी बेकार नहीं जाती। आइए, साथ मिलकर खेती करें।",
+          "start": 22.1,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.3,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_4w4f3",
+          "text": "रमेश की फ़सल की चर्चा दूर-दूर तक फैल गई। शहर से सेठ धनीराम भी आए।",
+          "start": 0.5,
+          "end": 6.5,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 131
+    },
+    {
+      "id": "sc_5126r",
+      "name": "१४. बीस साल बाद",
+      "background": "house_exterior",
+      "duration": 30,
+      "tod": "day",
+      "weather": "none",
+      "filter": "warm",
+      "vignette": true,
+      "transition": "fade",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ramesh_old",
+          "x": 620,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_527lk",
+              "action": "idle",
+              "start": 0,
+              "end": 12.8,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_537ao",
+              "action": "talk",
+              "start": 12.8,
+              "end": 18.15,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_543ry",
+              "action": "idle",
+              "start": 18.15,
+              "end": 23.95,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_553qy",
+              "action": "talk",
+              "start": 23.95,
+              "end": 28.25,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_arjun",
+          "x": 880,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_566ho",
+              "action": "idle",
+              "start": 0,
+              "end": 7.75,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_5746e",
+              "action": "talk",
+              "start": 7.75,
+              "end": 12.4,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_58q0",
+              "action": "idle",
+              "start": 12.4,
+              "end": 18.55,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_595gi",
+              "action": "talk",
+              "start": 18.55,
+              "end": 23.55,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_sita_old",
+          "x": 400,
+          "y": 655,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_5a1nf",
+              "action": "idle",
+              "start": 0,
+              "end": 23.95,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_5biw",
+              "action": "clap",
+              "start": 28.25,
+              "end": 30,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_5c35j",
+          "actor": 0,
+          "text": "समय बीता। रमेश का बेटा पढ़-लिखकर कृषि वैज्ञानिक बन गया।",
+          "start": 3.4,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.95,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_5e2gi",
+          "actor": 1,
+          "text": "बाबा, आज मैं जो कुछ हूँ, आपकी मेहनत की वजह से हूँ।",
+          "start": 7.75,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.65,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_5f3jq",
+          "actor": 0,
+          "text": "नहीं बेटा, यह तेरी लगन का फल है। मैंने तो बस बीज बोया था।",
+          "start": 12.8,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.35,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_5g7k0",
+          "actor": 1,
+          "text": "अब मैं गाँव-गाँव जाकर सिखाऊँगा कि बंजर ज़मीन भी सोना उगल सकती है।",
+          "start": 18.55,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5,
+          "voice": "hi-IN",
+          "rate": 1,
+          "pitch": 1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_5h40g",
+          "actor": 0,
+          "text": "बस याद रखना, मेहनत करने वालों की कभी हार नहीं होती।",
+          "start": 23.95,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.3,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_5d3tz",
+          "text": "समय बीता। रमेश का बेटा पढ़-लिखकर कृषि वैज्ञानिक बन गया।",
+          "start": 3.4,
+          "end": 7.65,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_5iga",
+          "text": "बीस साल बाद",
+          "start": 0.3,
+          "end": 3.2,
+          "style": "title",
+          "position": "center",
+          "size": 0.1,
+          "color": "#ffd166",
+          "font": "display"
+        }
+      ],
+      "seed": 141
+    },
+    {
+      "id": "sc_5jr4",
+      "name": "१५. सीख",
+      "background": "sunflower_field",
+      "duration": 19,
+      "tod": "sunset",
+      "weather": "leaves",
+      "filter": "warm",
+      "vignette": true,
+      "transition": "dissolve",
+      "transitionDuration": 1.2,
+      "camera": {
+        "preset": "zoom_out"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ramesh_old",
+          "x": 500,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_5k4p2",
+              "action": "idle",
+              "start": 0,
+              "end": 19,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_sita_old",
+          "x": 640,
+          "y": 655,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_5l1tm",
+              "action": "idle",
+              "start": 0,
+              "end": 19,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_arjun",
+          "x": 790,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_5m69x",
+              "action": "idle",
+              "start": 0,
+              "end": 19,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_5n5u6",
+          "actor": 0,
+          "text": "रमेश की कहानी सिखाती है कि हालात कितने भी मुश्किल हों, सच्ची मेहनत, सब्र और हौसला इंसान को कभी हारने नहीं देते।",
+          "start": 0.8,
+          "source": "tts",
+          "audioId": null,
+          "duration": 8.15,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_5p5ws",
+          "actor": 0,
+          "text": "याद रखिए, मेहनत का फल देर से मिलता है, पर मीठा ज़रूर मिलता है।",
+          "start": 9.85,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.35,
+          "voice": "hi-IN",
+          "rate": 0.95,
+          "pitch": 0.85,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_5o4co",
+          "text": "रमेश की कहानी सिखाती है कि हालात कितने भी मुश्किल हों, सच्ची मेहनत, सब्र और हौसला इंसान को कभी हारने नहीं देते।",
+          "start": 0.8,
+          "end": 9.25,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_5qt8",
+          "text": "याद रखिए, मेहनत का फल देर से मिलता है, पर मीठा ज़रूर मिलता है।",
+          "start": 9.85,
+          "end": 15.5,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_5r21f",
+          "text": "मेहनत कभी बेकार नहीं जाती",
+          "start": 12.5,
+          "end": 17,
+          "style": "title",
+          "position": "center",
+          "size": 0.09,
+          "color": "#ffd166",
+          "font": "display"
+        },
+        {
+          "id": "cp_5s4x2",
+          "text": "समाप्त",
+          "start": 17,
+          "end": 19,
+          "style": "title",
+          "position": "center",
+          "size": 0.07,
+          "color": "#ffffff",
+          "font": "display"
+        }
+      ],
+      "seed": 151
+    }
+  ],
+  "music": {
+    "audioId": null,
+    "volume": 0.35,
+    "loop": true
+  }
+}

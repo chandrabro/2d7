@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Rig test</title>
+<style>
+  body { margin: 0; background: #2a2d34; color: #eee; font: 12px sans-serif; }
+  .grid { display: grid; grid-template-columns: repeat(var(--cols, 8), 1fr); gap: 4px; padding: 4px; }
+  figure { margin: 0; text-align: center; }
+  canvas { width: 100%; display: block; background: linear-gradient(#9fd3f5, #e8f4fb 70%, #6ab04c 70%); }
+  #err { color: #f66; white-space: pre-wrap; padding: 6px; }
+</style>
+</head>
+<body>
+<div id="err"></div>
+<div class="grid" id="grid"></div>
+<script type="module">
+  // ?mode=presets | actions | frame   &t=1.2 &preset=pilot &front=1
+  const q = new URLSearchParams(location.search);
+  const mode = q.get('mode') || 'presets';
+  const t = parseFloat(q.get('t') || '0.6');
+  const err = document.getElementById('err');
+  window.addEventListener('error', (e) => { err.textContent += e.message + '\n'; });
+  const grid = document.getElementById('grid');
+  try {
+    const { drawCharacter } = await import('../js/engine/character.js');
+    const { PRESETS, presetAppearance } = await import('../js/engine/presets.js');
+    const { ACTIONS, poseAt } = await import('../js/engine/actions.js');
+    const cell = (label, w = 200, h = 300) => {
+      const fig = document.createElement('figure');
+      const c = document.createElement('canvas'); c.width = w; c.height = h;
+      const cap = document.createElement('figcaption'); cap.textContent = label;
+      fig.append(c, cap); grid.append(fig);
+      return c.getContext('2d');
+    };
+    if (mode === 'presets') {
+      grid.style.setProperty('--cols', 8);
+      for (const p of PRESETS) {
+        const ctx = cell(p.name);
+        const pose = poseAt(ACTIONS[0], t);
+        drawCharacter(ctx, p.app, pose, { x: 100, y: 270, scale: 2.4, facing: 1, orientation: q.get('front') ? 'front' : 'side', t });
+      }
+    } else if (mode === 'actions') {
+      grid.style.setProperty('--cols', 8);
+      const app = presetAppearance(q.get('preset') || 'custom_male');
+      for (const a of ACTIONS) {
+        const ctx = cell(a.name);
+        const pose = poseAt(a, t);
+        drawCharacter(ctx, app, pose, { x: 100, y: 270, scale: 2.2, facing: 1, t });
+      }
+    } else if (mode === 'frame') {
+      grid.style.setProperty('--cols', 1);
+      const { renderFrame } = await import('../js/engine/renderer.js');
+      const { createSampleProject } = await import('../js/state.js');
+      const project = createSampleProject();
+      const ctx = cell('frame', 1280, 720);
+      renderFrame(ctx, project, t, { width: 1280, height: 720, showGuides: !!q.get('guides') });
+    }
+  } catch (e) { err.textContent += e.stack; }
+  document.body.dataset.done = '1';
+</script>
+</body>
+</html>

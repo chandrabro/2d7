@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StoryStage – 2D Story Animator</title>
+<meta name="description" content="Build 2D animated stories in your browser: characters, 50 scenes, 65+ actions, dialog with TTS/recording/upload, and MP4 export. No install, no server.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2318171d'/%3E%3Ccircle cx='32' cy='22' r='10' fill='%23f5b942'/%3E%3Crect x='20' y='34' width='24' height='22' rx='6' fill='%233dd6c3'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app" class="app">
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark"></span><span class="brand-name">StoryStage</span><span class="brand-sub">2D story animator</span></div>
+    <input id="projectTitle" class="title-input" value="My Story" title="Project title" spellcheck="false">
+    <div class="transport">
+      <button id="btnStart" class="icon" title="Go to start (Home)">⏮</button>
+      <button id="btnPlay" class="icon primary" title="Play / pause (Space)">▶</button>
+      <button id="btnEnd" class="icon" title="Go to end (End)">⏭</button>
+      <span id="timeDisplay" class="time">0:00.0 / 0:00.0</span>
+      <button id="btnMute" class="icon" title="Mute preview audio">🔊</button>
+      <label class="chk small" title="Show stage guides"><input type="checkbox" id="chkGuides"> guides</label>
+    </div>
+    <div class="actions">
+      <button id="btnUndo" class="ghost" title="Undo (Ctrl+Z)">↶</button>
+      <button id="btnRedo" class="ghost" title="Redo (Ctrl+Y)">↷</button>
+      <button id="btnNew" class="ghost">New</button>
+      <button id="btnSample" class="ghost" title="Load the demo story">Demo</button>
+      <button id="btnOpen" class="ghost">Open…</button>
+      <button id="btnSave" class="ghost">Save file</button>
+      <button id="btnCast" class="ghost" title="Choose the voice of every character in one place (browser voices or Gemini)">🎙 Cast voices</button>
+      <button id="btnMeasure" class="ghost" title="Measure every spoken line in one click and fix scene lengths + lip-sync">⏱ Measure voices</button>
+      <button id="btnExport" class="accent">Export video</button>
+    </div>
+  </header>
+
+  <aside class="scenes-panel" id="scenesPanel"></aside>
+
+  <main class="center">
+    <div class="stage-wrap" id="stageWrap">
+      <canvas id="stage" width="1280" height="720"></canvas>
+      <div class="stage-hint" id="stageHint">Drag characters to move them · Click to select</div>
+    </div>
+    <div class="timeline" id="timeline"></div>
+  </main>
+
+  <aside class="inspector" id="inspector">
+    <nav class="tabs" id="tabs">
+      <button data-tab="scene" class="active">Scene</button>
+      <button data-tab="actors">Actors</button>
+      <button data-tab="dialog">Dialog</button>
+      <button data-tab="characters">Characters</button>
+      <button data-tab="settings">Settings</button>
+    </nav>
+    <div class="tab-body" id="tabBody"></div>
+  </aside>
+
+  <div id="modal" class="modal hidden"><div class="modal-card" id="modalCard"></div></div>
+  <div id="toast" class="toast hidden"></div>
+  <input type="file" id="fileInput" hidden>
+</div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

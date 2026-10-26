@@ -1,0 +1,3943 @@
+{
+  "version": 1,
+  "title": "मायाको जात हुँदैन",
+  "fps": 30,
+  "aspect": "16:9",
+  "quality": "high",
+  "bubbleStyle": "rounded",
+  "fadeOut": true,
+  "watermark": "",
+  "characters": [
+    {
+      "id": "ch_suraj",
+      "name": "सुरज",
+      "preset": "custom_male",
+      "appearance": {
+        "name": "सुरज",
+        "gender": "male",
+        "build": "adult",
+        "weight": "average",
+        "skin": "#b17446",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "short",
+          "color": "#141414"
+        },
+        "facialHair": "none",
+        "glasses": "none",
+        "outfit": {
+          "top": "shirt",
+          "topColor": "#4e79a7",
+          "trimColor": "#4e79a7",
+          "sleeves": "long",
+          "bottom": "pants",
+          "bottomColor": "#37474f",
+          "shoes": "sneakers",
+          "shoeColor": "#424242",
+          "hat": "none",
+          "hatColor": "#37474f",
+          "accessories": []
+        }
+      }
+    },
+    {
+      "id": "ch_suraj2",
+      "name": "सुरज (इन्जिनियर)",
+      "preset": "custom_male",
+      "appearance": {
+        "name": "सुरज (इन्जिनियर)",
+        "gender": "male",
+        "build": "adult",
+        "weight": "average",
+        "skin": "#b17446",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "side_part",
+          "color": "#141414"
+        },
+        "facialHair": "none",
+        "glasses": "glasses",
+        "outfit": {
+          "top": "shirt",
+          "topColor": "#eceff1",
+          "trimColor": "#eceff1",
+          "sleeves": "long",
+          "bottom": "pants",
+          "bottomColor": "#263238",
+          "shoes": "formal",
+          "shoeColor": "#212121",
+          "hat": "none",
+          "hatColor": "#37474f",
+          "accessories": [
+            "watch"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch_aarati",
+      "name": "आरती",
+      "preset": "custom_female",
+      "appearance": {
+        "name": "आरती",
+        "gender": "female",
+        "build": "adult",
+        "weight": "average",
+        "skin": "#e0ac7e",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "long",
+          "color": "#141414"
+        },
+        "facialHair": "none",
+        "glasses": "none",
+        "outfit": {
+          "top": "kurta",
+          "topColor": "#d81b60",
+          "trimColor": "#f8bbd0",
+          "sleeves": "long",
+          "bottom": "suruwal",
+          "bottomColor": "#f5f5f5",
+          "shoes": "sandals",
+          "shoeColor": "#6d4c41",
+          "hat": "none",
+          "hatColor": "#37474f",
+          "accessories": [
+            "bindi",
+            "earrings"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch_hari",
+      "name": "हरि (सुरजका बुबा)",
+      "preset": "nepali_farmer",
+      "appearance": {
+        "name": "हरि (सुरजका बुबा)",
+        "gender": "male",
+        "build": "adult",
+        "weight": "average",
+        "skin": "#a8693f",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "short",
+          "color": "#141414"
+        },
+        "facialHair": "mustache",
+        "glasses": "none",
+        "outfit": {
+          "top": "daura",
+          "topColor": "#f3ead3",
+          "trimColor": "#6d4c41",
+          "sleeves": "long",
+          "bottom": "suruwal",
+          "bottomColor": "#ece6d2",
+          "shoes": "sandals",
+          "shoeColor": "#5d4037",
+          "hat": "topi",
+          "hatColor": "#b71c1c",
+          "accessories": [
+            "apron"
+          ],
+          "apronColor": "#37474f"
+        }
+      }
+    },
+    {
+      "id": "ch_maya",
+      "name": "माया (सुरजकी आमा)",
+      "preset": "nepali_woman",
+      "appearance": {
+        "name": "माया (सुरजकी आमा)",
+        "gender": "female",
+        "build": "adult",
+        "weight": "average",
+        "skin": "#a8693f",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "bun",
+          "color": "#141414"
+        },
+        "facialHair": "none",
+        "glasses": "none",
+        "outfit": {
+          "top": "blouse",
+          "topColor": "#1565c0",
+          "trimColor": "#f1c40f",
+          "sleeves": "long",
+          "bottom": "skirt",
+          "bottomColor": "#4e342e",
+          "shoes": "sandals",
+          "shoeColor": "#5d4037",
+          "hat": "none",
+          "hatColor": "#37474f",
+          "accessories": [
+            "bindi",
+            "earrings",
+            "necklace",
+            "scarf"
+          ],
+          "skirtLength": "long",
+          "scarfColor": "#ffffff"
+        }
+      }
+    },
+    {
+      "id": "ch_ram",
+      "name": "रामप्रसाद (आरतीका बुबा)",
+      "preset": "nepali_farmer",
+      "appearance": {
+        "name": "रामप्रसाद (आरतीका बुबा)",
+        "gender": "male",
+        "build": "adult",
+        "weight": "average",
+        "skin": "#e0ac7e",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "short",
+          "color": "#9e9e9e"
+        },
+        "facialHair": "none",
+        "glasses": "glasses",
+        "outfit": {
+          "top": "daura",
+          "topColor": "#ffffff",
+          "trimColor": "#6d4c41",
+          "sleeves": "long",
+          "bottom": "suruwal",
+          "bottomColor": "#ece6d2",
+          "shoes": "sandals",
+          "shoeColor": "#5d4037",
+          "hat": "topi",
+          "hatColor": "#212121",
+          "accessories": [
+            "tilak"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch_grandma",
+      "name": "हजुरआमा",
+      "preset": "grandma",
+      "appearance": {
+        "name": "हजुरआमा",
+        "gender": "female",
+        "build": "elder",
+        "weight": "heavy",
+        "skin": "#e0ac7e",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "bun",
+          "color": "#e0e0e0"
+        },
+        "facialHair": "none",
+        "glasses": "round_glasses",
+        "outfit": {
+          "top": "blouse",
+          "topColor": "#c62828",
+          "trimColor": "#ffffff",
+          "sleeves": "long",
+          "bottom": "skirt",
+          "bottomColor": "#5d4037",
+          "shoes": "formal",
+          "shoeColor": "#3e2723",
+          "hat": "none",
+          "hatColor": "#37474f",
+          "accessories": [
+            "necklace"
+          ],
+          "skirtLength": "long",
+          "scarfColor": "#f8bbd0"
+        }
+      }
+    },
+    {
+      "id": "ch_doctor",
+      "name": "डाक्टर",
+      "preset": "doctor",
+      "appearance": {
+        "name": "डाक्टर",
+        "gender": "male",
+        "build": "adult",
+        "weight": "average",
+        "skin": "#c98e5f",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "short",
+          "color": "#2b1b0e"
+        },
+        "facialHair": "none",
+        "glasses": "glasses",
+        "outfit": {
+          "top": "labcoat",
+          "topColor": "#ffffff",
+          "trimColor": "#1565c0",
+          "sleeves": "long",
+          "bottom": "pants",
+          "bottomColor": "#37474f",
+          "shoes": "formal",
+          "shoeColor": "#212121",
+          "hat": "none",
+          "hatColor": "#37474f",
+          "accessories": [
+            "stethoscope",
+            "badge"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch_groom",
+      "name": "सुरज (दुलाहा)",
+      "preset": "groom",
+      "appearance": {
+        "name": "सुरज (दुलाहा)",
+        "gender": "male",
+        "build": "adult",
+        "weight": "average",
+        "skin": "#b17446",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "side_part",
+          "color": "#141414"
+        },
+        "facialHair": "stubble",
+        "glasses": "none",
+        "outfit": {
+          "top": "kurta",
+          "topColor": "#f9e4b7",
+          "trimColor": "#c62828",
+          "sleeves": "long",
+          "bottom": "pants",
+          "bottomColor": "#f3e5ab",
+          "shoes": "formal",
+          "shoeColor": "#5d4037",
+          "hat": "topi",
+          "hatColor": "#c62828",
+          "accessories": [
+            "necklace",
+            "scarf"
+          ],
+          "scarfColor": "#c62828"
+        }
+      }
+    },
+    {
+      "id": "ch_bride",
+      "name": "आरती (दुलही)",
+      "preset": "bride",
+      "appearance": {
+        "name": "आरती (दुलही)",
+        "gender": "female",
+        "build": "adult",
+        "weight": "average",
+        "skin": "#e0ac7e",
+        "eyeColor": "#3e2723",
+        "hair": {
+          "style": "long",
+          "color": "#141414"
+        },
+        "facialHair": "none",
+        "glasses": "none",
+        "outfit": {
+          "top": "sari",
+          "topColor": "#c62828",
+          "trimColor": "#f1c40f",
+          "sleeves": "short",
+          "bottom": "none",
+          "bottomColor": "#c62828",
+          "shoes": "sandals",
+          "shoeColor": "#f1c40f",
+          "hat": "none",
+          "hatColor": "#37474f",
+          "accessories": [
+            "bindi",
+            "earrings",
+            "necklace"
+          ],
+          "blouseColor": "#f1c40f"
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "sc_1288",
+      "name": "१. फूलबारी गाउँ",
+      "background": "mountain_peak",
+      "duration": 19,
+      "tod": "dawn",
+      "weather": "sunrays",
+      "filter": "none",
+      "vignette": true,
+      "transition": "cut",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "zoom_in"
+      },
+      "actors": [
+        {
+          "characterId": "ch_suraj",
+          "x": 230,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_22gl",
+              "action": "walk",
+              "start": 4.5,
+              "end": 17.8,
+              "toX": 520,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_aarati",
+          "x": 1000,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_34sz",
+              "action": "walk",
+              "start": 4.5,
+              "end": 17.8,
+              "toX": 760,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_43b0",
+          "actor": 0,
+          "text": "हिमालको काखमा बसेको एउटा सानो गाउँ — फूलबारी।",
+          "start": 4.2,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.54,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_6287",
+          "actor": 0,
+          "text": "यहाँका मान्छेको मन जति फराकिलो थियो, जातपातको पर्खाल त्यति नै अग्लो थियो।",
+          "start": 8.09,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.06,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_84me",
+          "actor": 0,
+          "text": "यही गाउँमा दुई सपना हुर्किरहेका थिए — सुरज र आरती।",
+          "start": 13.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.3,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_528y",
+          "text": "हिमालको काखमा बसेको एउटा सानो गाउँ — फूलबारी।",
+          "start": 4.2,
+          "end": 8.04,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_7419",
+          "text": "यहाँका मान्छेको मन जति फराकिलो थियो, जातपातको पर्खाल त्यति नै अग्लो थियो।",
+          "start": 8.09,
+          "end": 13.45,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_936b",
+          "text": "यही गाउँमा दुई सपना हुर्किरहेका थिए — सुरज र आरती।",
+          "start": 13.5,
+          "end": 18.1,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_a1n9",
+          "text": "मायाको जात हुँदैन",
+          "start": 0.3,
+          "end": 4.4,
+          "style": "title",
+          "position": "center",
+          "size": 0.12,
+          "color": "#ffd166",
+          "font": "display"
+        },
+        {
+          "id": "cp_b2zh",
+          "text": "एउटा हृदयस्पर्शी प्रेमकथा",
+          "start": 1.5,
+          "end": 4.4,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.045,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 11
+    },
+    {
+      "id": "sc_c2nl",
+      "name": "२. कक्षाकोठा",
+      "background": "classroom",
+      "duration": 26,
+      "tod": "day",
+      "weather": "none",
+      "filter": "none",
+      "vignette": true,
+      "transition": "fade",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_aarati",
+          "x": 520,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_d4rn",
+              "action": "read",
+              "start": 0,
+              "end": 12.46,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_efs",
+              "action": "shrug",
+              "start": 12.46,
+              "end": 17.52,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_f5ox",
+              "action": "nod",
+              "start": 20.65,
+              "end": 26,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_suraj",
+          "x": 860,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_g2gk",
+              "action": "write",
+              "start": 0,
+              "end": 17.87,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_h34p",
+              "action": "idle",
+              "start": 17.87,
+              "end": 26,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_i74g",
+          "actor": 0,
+          "text": "सुरज लोहार बुबाको छोरो थियो। घरमा गरिबी थियो, तर पढाइमा ऊ सधैं पहिलो हुन्थ्यो।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.82,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_k68z",
+          "actor": 0,
+          "text": "आरती गाउँकै ठूलो परिवारकी छोरी थिई। उसको मन उसको मुस्कान जत्तिकै सफा थियो।",
+          "start": 6.67,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.44,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_m3b1",
+          "actor": 0,
+          "text": "सुरज, यो गणितको प्रश्न तिमीले कसरी हल गर्यौ? मलाई त बुझ्नै भएन।",
+          "start": 12.46,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.06,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_n5hx",
+          "actor": 1,
+          "text": "सजिलो छ आरती। म तिमीलाई सिकाइदिन्छु।",
+          "start": 17.87,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.78,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_o23t",
+          "actor": 1,
+          "text": "बुबा भन्नुहुन्छ, गरिबको एउटै धन भनेको विद्या हो।",
+          "start": 21,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.54,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_jvf",
+          "text": "सुरज लोहार बुबाको छोरो थियो। घरमा गरिबी थियो, तर पढाइमा ऊ सधैं पहिलो हुन्थ्यो।",
+          "start": 0.5,
+          "end": 6.62,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_l55f",
+          "text": "आरती गाउँकै ठूलो परिवारकी छोरी थिई। उसको मन उसको मुस्कान जत्तिकै सफा थियो।",
+          "start": 6.67,
+          "end": 12.41,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 21
+    },
+    {
+      "id": "sc_p3mx",
+      "name": "३. पानीको जात हुन्छ र?",
+      "background": "sports_ground",
+      "duration": 26,
+      "tod": "day",
+      "weather": "none",
+      "filter": "none",
+      "vignette": true,
+      "transition": "dissolve",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_aarati",
+          "x": 480,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_q2dt",
+              "action": "walk",
+              "start": 5.53,
+              "end": 9.45,
+              "toX": 720,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_rco",
+              "action": "laugh",
+              "start": 12.93,
+              "end": 17.23,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_suraj",
+          "x": 920,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_s2kz",
+              "action": "shake_head",
+              "start": 9.8,
+              "end": 12.58,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_t27t",
+              "action": "bow",
+              "start": 20.74,
+              "end": 26,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_u1lq",
+          "actor": 0,
+          "text": "दिन बित्दै गए। किताबका पानासँगै दुई मनको दूरी पनि घट्दै गयो।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.68,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_w2bl",
+          "actor": 0,
+          "text": "सुरज, तिमी किन टाढा बसेका? लौ, मेरो पानी खाऊ।",
+          "start": 5.53,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.92,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_x4wd",
+          "actor": 1,
+          "text": "होइन आरती, मलाई तिर्खा लागेकै छैन।",
+          "start": 9.8,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.78,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_ydn",
+          "actor": 0,
+          "text": "झूट! तिम्रो ओठ सुकेको छ। पानीको पनि जात हुन्छ र?",
+          "start": 12.93,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.3,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_z4q9",
+          "actor": 1,
+          "text": "तिमीजस्तो मान्छे यो गाउँमा पहिलो पटक भेटेँ।",
+          "start": 17.58,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.16,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_104ms",
+          "actor": 0,
+          "text": "त्यो दिन, पहिलो पटक सुरजको आँखा भरिए।",
+          "start": 21.09,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.16,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_v54b",
+          "text": "दिन बित्दै गए। किताबका पानासँगै दुई मनको दूरी पनि घट्दै गयो।",
+          "start": 0.5,
+          "end": 5.48,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_117me",
+          "text": "त्यो दिन, पहिलो पटक सुरजको आँखा भरिए।",
+          "start": 21.09,
+          "end": 24.55,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 31
+    },
+    {
+      "id": "sc_123av",
+      "name": "४. नदीको किनार",
+      "background": "riverbank",
+      "duration": 27,
+      "tod": "sunset",
+      "weather": "none",
+      "filter": "warm",
+      "vignette": true,
+      "transition": "dissolve",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_suraj",
+          "x": 560,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_133fr",
+              "action": "shrug",
+              "start": 7.52,
+              "end": 12.58,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_145k7",
+              "action": "hug",
+              "start": 20.36,
+              "end": 27,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_aarati",
+          "x": 900,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_155la",
+              "action": "nod",
+              "start": 7.17,
+              "end": 12.93,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_165i",
+              "action": "walk",
+              "start": 16.85,
+              "end": 17.2,
+              "toX": 690,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_171mg",
+              "action": "hug",
+              "start": 20.36,
+              "end": 27,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_185lo",
+          "actor": 0,
+          "text": "आरती, म तिमीलाई एउटा कुरा भन्न चाहन्छु, तर डर लाग्छ।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.3,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_192r0",
+          "actor": 1,
+          "text": "के कुरा? भन न।",
+          "start": 5.15,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.02,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_1a6ra",
+          "actor": 0,
+          "text": "म तिमीलाई माया गर्छु। तर हाम्रो बीचमा समाजले बनाएको जातको पर्खाल छ।",
+          "start": 7.52,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.06,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_1b5j",
+          "actor": 1,
+          "text": "सुरज, मैले तिम्रो जात होइन, तिम्रो मन देखेकी हुँ।",
+          "start": 12.93,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.92,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_1c65x",
+          "actor": 1,
+          "text": "तिमी मसँग छौ भने म केहीसँग डराउँदिनँ।",
+          "start": 17.2,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.16,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_1d6np",
+          "actor": 0,
+          "text": "त्यो साँझ नदीको किनारमा दुई मनले जीवनभर साथ दिने वाचा गरे।",
+          "start": 20.71,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.68,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_1e6be",
+          "text": "त्यो साँझ नदीको किनारमा दुई मनले जीवनभर साथ दिने वाचा गरे।",
+          "start": 20.71,
+          "end": 25.69,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 41
+    },
+    {
+      "id": "sc_1f556",
+      "name": "५. सुरजको घर",
+      "background": "barn_yard",
+      "duration": 25,
+      "tod": "day",
+      "weather": "none",
+      "filter": "none",
+      "vignette": true,
+      "transition": "fade",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_suraj",
+          "x": 470,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_1g29o",
+              "action": "nod",
+              "start": 23.78,
+              "end": 25,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_hari",
+          "x": 760,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_1h4z5",
+              "action": "chop",
+              "start": 0,
+              "end": 5.53,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1i7ca",
+              "action": "surprised",
+              "start": 9.83,
+              "end": 10.18,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1jkt",
+              "action": "idle",
+              "start": 14.1,
+              "end": 19.1,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_maya",
+          "x": 980,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_1k5ok",
+              "action": "sweep",
+              "start": 0,
+              "end": 5.53,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1l2ol",
+              "action": "shake_head",
+              "start": 18.75,
+              "end": 19.1,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_1m55o",
+          "actor": 0,
+          "text": "तर प्रेम सजिलो थिएन। सुरजले हिम्मत गरेर घरमा सबै कुरा राख्यो।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.68,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_1o6zm",
+          "actor": 0,
+          "text": "बुबा, आमा, म एउटी केटीलाई माया गर्छु। उनी आरती हुन्।",
+          "start": 5.53,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.3,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_1p284",
+          "actor": 1,
+          "text": "के? रामप्रसाद पण्डितकी छोरी? छोरा, तिमीले आगोसँग खेल्न खोज्यौ।",
+          "start": 10.18,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.92,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_1qtu",
+          "actor": 2,
+          "text": "बाबु, समाजले हामीलाई सानो ठान्छ। उनीहरूले हाम्रो नाता कहिल्यै स्वीकार्दैनन्।",
+          "start": 14.45,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.3,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 0.95,
+          "pitch": 0.88,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_1r69o",
+          "actor": 1,
+          "text": "तिम्रो मनलाई म रोक्दिनँ छोरा, तर तिमी घाइते हुने डर लाग्छ।",
+          "start": 19.1,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.68,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_1n5t6",
+          "text": "तर प्रेम सजिलो थिएन। सुरजले हिम्मत गरेर घरमा सबै कुरा राख्यो।",
+          "start": 0.5,
+          "end": 5.48,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 51
+    },
+    {
+      "id": "sc_1s79c",
+      "name": "६. आरतीको घर",
+      "background": "living_room",
+      "duration": 29,
+      "tod": "sunset",
+      "weather": "none",
+      "filter": "cool",
+      "vignette": true,
+      "transition": "fade",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ram",
+          "x": 480,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_1t64a",
+              "action": "angry",
+              "start": 4.77,
+              "end": 8.69,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1u3jx",
+              "action": "point",
+              "start": 14.07,
+              "end": 18.75,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1v1oo",
+              "action": "angry",
+              "start": 23.37,
+              "end": 27.29,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_aarati",
+          "x": 790,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_1w66r",
+              "action": "shake_head",
+              "start": 9.04,
+              "end": 13.72,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_1x51d",
+              "action": "cry",
+              "start": 23.02,
+              "end": 29,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_grandma",
+          "x": 980,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_1y435",
+              "action": "sad_walk",
+              "start": 0,
+              "end": 3,
+              "toX": 1000,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_1z2b5",
+          "actor": 0,
+          "text": "यता गाउँभरि कुरा फैलिसकेको थियो। खबर आरतीको घरसम्म पुग्यो।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.92,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_21309",
+          "actor": 0,
+          "text": "आरती! मैले के सुनिरहेको छु? तिमी त्यो लोहारको छोरासँग...",
+          "start": 4.77,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.92,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.9,
+          "pitch": 0.72,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_225uv",
+          "actor": 1,
+          "text": "बुबा, सुरज असल मान्छे हुन्। उनको मन सुन जत्तिकै सफा छ।",
+          "start": 9.04,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.68,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_232s6",
+          "actor": 0,
+          "text": "चुप! हाम्रो कुलको इज्जत माटोमा मिलाउने हो? आजदेखि कलेज जान पाउँदिनौ।",
+          "start": 14.07,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.68,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.9,
+          "pitch": 0.72,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_245y7",
+          "actor": 1,
+          "text": "बुबा, माया पाप होइन। मलाई थुनेर तपाईंले के पाउनुहुन्छ?",
+          "start": 19.1,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.92,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_251d1",
+          "actor": 0,
+          "text": "तिम्रो विवाह म आफैं तय गर्छु। अब मुख नखोल।",
+          "start": 23.37,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.92,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.9,
+          "pitch": 0.72,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_205bn",
+          "text": "यता गाउँभरि कुरा फैलिसकेको थियो। खबर आरतीको घरसम्म पुग्यो।",
+          "start": 0.5,
+          "end": 4.72,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 61
+    },
+    {
+      "id": "sc_265gu",
+      "name": "७. अपमान",
+      "background": "barn_yard",
+      "duration": 32,
+      "tod": "day",
+      "weather": "none",
+      "filter": "none",
+      "vignette": true,
+      "transition": "dissolve",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ram",
+          "x": 440,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_277g6",
+              "action": "point",
+              "start": 3.63,
+              "end": 9.07,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_282ba",
+              "action": "angry",
+              "start": 14.83,
+              "end": 19.51,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_suraj",
+          "x": 760,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_296sw",
+              "action": "bow",
+              "start": 9.42,
+              "end": 14.48,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2a3d8",
+              "action": "idle",
+              "start": 14.48,
+              "end": 25.27,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_hari",
+          "x": 980,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_2b6v7",
+              "action": "idle",
+              "start": 0,
+              "end": 19.86,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_2c73",
+          "actor": 0,
+          "text": "भोलिपल्ट रामप्रसाद आफैं सुरजको घर पुगे।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.78,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_2e1ju",
+          "actor": 0,
+          "text": "ए केटा! मेरी छोरीको नाम लिन पनि छोडिदे। तिमी र हामी बराबर हुँदैनौं।",
+          "start": 3.63,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.44,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.9,
+          "pitch": 0.72,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_2f6y7",
+          "actor": 1,
+          "text": "काका, मैले आरतीलाई हृदयदेखि माया गरेको छु। म कुनै पाप गरिरहेको छैन।",
+          "start": 9.42,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.06,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_2g7i8",
+          "actor": 0,
+          "text": "माया! तिमीले मेरी छोरीलाई के दिन सक्छौ? झुपडी र हातका घाउ?",
+          "start": 14.83,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.68,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.9,
+          "pitch": 0.72,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_2h46l",
+          "actor": 2,
+          "text": "पण्डितज्यू, मेरो छोराले इमानदारीको रोटी खान्छ। हामी कसैभन्दा कम भएर बाँचेका छैनौं।",
+          "start": 19.86,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.06,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_2i3n5",
+          "actor": 1,
+          "text": "काका, एक दिन म यति योग्य बन्नेछु कि तपाईं आफैं मलाई बोलाउनुहुनेछ।",
+          "start": 25.27,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.06,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_2d3wy",
+          "text": "भोलिपल्ट रामप्रसाद आफैं सुरजको घर पुगे।",
+          "start": 0.5,
+          "end": 3.58,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 71
+    },
+    {
+      "id": "sc_2jqd",
+      "name": "८. हजुरआमाको पछुतो",
+      "background": "balcony",
+      "duration": 30,
+      "tod": "night",
+      "weather": "rain",
+      "filter": "cool",
+      "vignette": true,
+      "transition": "fade",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "zoom_in"
+      },
+      "actors": [
+        {
+          "characterId": "ch_aarati",
+          "x": 560,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_2k3ss",
+              "action": "cry",
+              "start": 0.3,
+              "end": 7.52,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2l4g7",
+              "action": "idle",
+              "start": 7.52,
+              "end": 21.38,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2m3c4",
+              "action": "hug",
+              "start": 21.38,
+              "end": 30,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_grandma",
+          "x": 880,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_2neg",
+              "action": "sad_walk",
+              "start": 7.17,
+              "end": 14.86,
+              "toX": 700,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2o6s8",
+              "action": "hug",
+              "start": 21.38,
+              "end": 30,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_2p547",
+          "actor": 0,
+          "text": "त्यो रात आरती एक्लै रोइरहेकी थिई।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.78,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_2r6zz",
+          "actor": 0,
+          "text": "हजुरआमा, के माया गर्नु यति ठूलो पाप हो?",
+          "start": 3.63,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.54,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_2s24x",
+          "actor": 1,
+          "text": "जवानीमा म नदीमा डुब्दै थिएँ। मलाई बचाउने एक दमाई दिदी थिइन्। तर मैले उनलाई घरमा पाइला राख्न दिइनँ।",
+          "start": 7.52,
+          "source": "tts",
+          "audioId": null,
+          "duration": 7.34,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 0.85,
+          "pitch": 0.7,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_2t4dq",
+          "actor": 1,
+          "text": "आज पनि त्यो पछुतो मेरो छातीमा छ। नानी, जात मान्छेले बनाएको हो, भगवान्ले होइन।",
+          "start": 15.21,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.82,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 0.85,
+          "pitch": 0.7,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_2u4sb",
+          "actor": 0,
+          "text": "हजुरआमा, के तपाईं मेरो साथ दिनुहुन्छ?",
+          "start": 21.38,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.78,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_2v3v9",
+          "actor": 1,
+          "text": "म अन्तिम साससम्म तिम्रो साथमा छु, नानी।",
+          "start": 24.51,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.16,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 0.85,
+          "pitch": 0.7,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_2qvl",
+          "text": "त्यो रात आरती एक्लै रोइरहेकी थिई।",
+          "start": 0.5,
+          "end": 3.58,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 81
+    },
+    {
+      "id": "sc_2w1go",
+      "name": "९. बिदाइ",
+      "background": "bus_stop",
+      "duration": 25,
+      "tod": "dawn",
+      "weather": "none",
+      "filter": "none",
+      "vignette": true,
+      "transition": "fade",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_suraj",
+          "x": 520,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_2x5w6",
+              "action": "walk",
+              "start": 23.4,
+              "end": 25,
+              "toX": 140,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_aarati",
+          "x": 800,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_2y1a2",
+              "action": "cry",
+              "start": 19.51,
+              "end": 19.86,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_2z3x3",
+              "action": "wave",
+              "start": 23.4,
+              "end": 25,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_maya",
+          "x": 985,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_304ch",
+              "action": "namaste",
+              "start": 23.4,
+              "end": 25,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_311io",
+          "actor": 0,
+          "text": "समाजको दबाब बढ्दै गयो। सुरजले शहर गएर आफ्नो भाग्य बनाउने निर्णय गर्यो।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.06,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_336cy",
+          "actor": 1,
+          "text": "सुरज, यो रुमाल राख। जब थाक्छौ, मलाई सम्झिनू।",
+          "start": 5.91,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.54,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_344ij",
+          "actor": 0,
+          "text": "आरती, म फर्किन्छु। यति योग्य भएर फर्किन्छु कि कसैले मेरो जात होइन, मेरो काम हेरोस्।",
+          "start": 9.8,
+          "source": "tts",
+          "audioId": null,
+          "duration": 6.2,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_35nk",
+          "actor": 1,
+          "text": "म पर्खिनेछु सुरज, जतिसुकै वर्ष लागे पनि।",
+          "start": 16.35,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.16,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_362ms",
+          "actor": 2,
+          "text": "बाबु, जहाँ गए पनि आफ्नो इमान कहिल्यै नछोड्नू।",
+          "start": 19.86,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.54,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 0.95,
+          "pitch": 0.88,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_325ti",
+          "text": "समाजको दबाब बढ्दै गयो। सुरजले शहर गएर आफ्नो भाग्य बनाउने निर्णय गर्यो।",
+          "start": 0.5,
+          "end": 5.86,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 91
+    },
+    {
+      "id": "sc_372sc",
+      "name": "१०. शहरमा संघर्ष",
+      "background": "library",
+      "duration": 15,
+      "tod": "night",
+      "weather": "none",
+      "filter": "none",
+      "vignette": true,
+      "transition": "dissolve",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "zoom_in"
+      },
+      "actors": [
+        {
+          "characterId": "ch_suraj",
+          "x": 640,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_381i1",
+              "action": "read",
+              "start": 0,
+              "end": 10.33,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_397n7",
+              "action": "write",
+              "start": 10.33,
+              "end": 13.49,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_3a6by",
+              "action": "yawn",
+              "start": 13.49,
+              "end": 15,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_3b6so",
+          "actor": 0,
+          "text": "शहरमा सुरजले दिनभर काम र रातभर पढाइ गर्यो। भोको पेट, थाकेको शरीर, तर आँखामा एउटै सपना।",
+          "start": 3.4,
+          "source": "tts",
+          "audioId": null,
+          "duration": 6.58,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_3d630",
+          "actor": 0,
+          "text": "आरती, तिम्रो विश्वासले मलाई कहिल्यै हार्न दिँदैन।",
+          "start": 10.33,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.16,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "thought",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_3c6b9",
+          "text": "शहरमा सुरजले दिनभर काम र रातभर पढाइ गर्यो। भोको पेट, थाकेको शरीर, तर आँखामा एउटै सपना।",
+          "start": 3.4,
+          "end": 10.28,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_3e32f",
+          "text": "शहरमा संघर्षका दिनहरू",
+          "start": 0.3,
+          "end": 3.2,
+          "style": "title",
+          "position": "center",
+          "size": 0.07,
+          "color": "#ffffff",
+          "font": "display"
+        }
+      ],
+      "seed": 101
+    },
+    {
+      "id": "sc_3f61a",
+      "name": "११. इन्जिनियर सुरज",
+      "background": "office",
+      "duration": 14,
+      "tod": "day",
+      "weather": "none",
+      "filter": "none",
+      "vignette": true,
+      "transition": "dissolve",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_suraj2",
+          "x": 640,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_3g9i",
+              "action": "type",
+              "start": 0,
+              "end": 8.23,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_3h5sm",
+              "action": "thumbs_up",
+              "start": 12.53,
+              "end": 14,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_3i4xm",
+          "actor": 0,
+          "text": "सुरज इन्जिनियर बन्यो। उसले आफ्नै गाउँ फूलबारीमा पुल बनाउने जिम्मा पायो।",
+          "start": 3.2,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.68,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_3k5l5",
+          "actor": 0,
+          "text": "अब म फर्किन्छु, आरती। तिमीले दिएको रुमाल अझै मसँग छ।",
+          "start": 8.23,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.3,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "thought",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_3j5vd",
+          "text": "सुरज इन्जिनियर बन्यो। उसले आफ्नै गाउँ फूलबारीमा पुल बनाउने जिम्मा पायो।",
+          "start": 3.2,
+          "end": 8.18,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_3l3dx",
+          "text": "पाँच वर्षपछि...",
+          "start": 0.3,
+          "end": 3,
+          "style": "title",
+          "position": "center",
+          "size": 0.09,
+          "color": "#ffd166",
+          "font": "display"
+        }
+      ],
+      "seed": 111
+    },
+    {
+      "id": "sc_3m6zi",
+      "name": "१२. आरतीको अडान",
+      "background": "living_room",
+      "duration": 17,
+      "tod": "sunset",
+      "weather": "none",
+      "filter": "cool",
+      "vignette": true,
+      "transition": "fade",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ram",
+          "x": 480,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_3n6xd",
+              "action": "sad_walk",
+              "start": 4.01,
+              "end": 7.17,
+              "toX": 500,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_3oa5",
+              "action": "think",
+              "start": 15.71,
+              "end": 17,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_aarati",
+          "x": 790,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_3p5rk",
+              "action": "shake_head",
+              "start": 7.52,
+              "end": 12.2,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_grandma",
+          "x": 980,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_3q1gq",
+              "action": "idle",
+              "start": 0,
+              "end": 17,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_3rp5",
+          "actor": 0,
+          "text": "यता आरतीले एकपछि अर्को विवाहका प्रस्ताव फर्काइरही।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.16,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_3t633",
+          "actor": 0,
+          "text": "आरती, पाँच वर्ष भइसक्यो। अब त मान्नुपर्छ।",
+          "start": 4.01,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.16,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.9,
+          "pitch": 0.72,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_3u11v",
+          "actor": 1,
+          "text": "बुबा, मैले आफ्नो मन एक पटक दिइसकेँ। म त्यो फर्काउन सक्दिनँ।",
+          "start": 7.52,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.68,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_3v7ft",
+          "actor": 2,
+          "text": "रामप्रसाद, छोरीको आँसुले घर बिग्रन्छ, यो सम्झ।",
+          "start": 12.55,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.16,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 0.85,
+          "pitch": 0.7,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_3sfi",
+          "text": "यता आरतीले एकपछि अर्को विवाहका प्रस्ताव फर्काइरही।",
+          "start": 0.5,
+          "end": 3.96,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 121
+    },
+    {
+      "id": "sc_3won",
+      "name": "१३. बाढी",
+      "background": "riverbank",
+      "duration": 15,
+      "tod": "night",
+      "weather": "rain",
+      "filter": "cool",
+      "vignette": true,
+      "transition": "fade",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "shake"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ram",
+          "x": 900,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_3x3op",
+              "action": "scared",
+              "start": 0,
+              "end": 13.43,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_3ylf",
+              "action": "lie_down",
+              "start": 13.43,
+              "end": 15,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_suraj2",
+          "x": 250,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_3z3vo",
+              "action": "run",
+              "start": 0.5,
+              "end": 7.52,
+              "toX": 800,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_402jl",
+              "action": "carry_heavy",
+              "start": 7.52,
+              "end": 15,
+              "toX": 520,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_aarati",
+          "x": 1000,
+          "y": 655,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_416kb",
+              "action": "scared",
+              "start": 0,
+              "end": 7.17,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_422gt",
+              "action": "cry",
+              "start": 7.17,
+              "end": 15,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_432dl",
+          "actor": 0,
+          "text": "त्यही वर्ष असारमा फूलबारीमा भयानक बाढी आयो। नदीले सबै बगाउँदै थियो।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.68,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_4525g",
+          "actor": 2,
+          "text": "बुबा!! कोही बचाउनुहोस्!",
+          "start": 5.53,
+          "source": "tts",
+          "audioId": null,
+          "duration": 1.64,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "shout",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_46dj",
+          "actor": 1,
+          "text": "आरती, नडराऊ! म बुबालाई निकाल्छु!",
+          "start": 7.52,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.4,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "shout",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_472nk",
+          "actor": 0,
+          "text": "सुरजले ज्यानको बाजी थापेर रामप्रसादलाई बाढीबाट निकाल्यो।",
+          "start": 10.27,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.16,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_441tt",
+          "text": "त्यही वर्ष असारमा फूलबारीमा भयानक बाढी आयो। नदीले सबै बगाउँदै थियो।",
+          "start": 0.5,
+          "end": 5.48,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_4830s",
+          "text": "सुरजले ज्यानको बाजी थापेर रामप्रसादलाई बाढीबाट निकाल्यो।",
+          "start": 10.27,
+          "end": 13.73,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 131
+    },
+    {
+      "id": "sc_492yv",
+      "name": "१४. अस्पतालमा",
+      "background": "hospital_room",
+      "duration": 27,
+      "tod": "day",
+      "weather": "none",
+      "filter": "none",
+      "vignette": true,
+      "transition": "fade",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_doctor",
+          "x": 500,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_4a48w",
+              "action": "idle",
+              "start": 0,
+              "end": 27,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_suraj2",
+          "x": 830,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_4b7pq",
+              "action": "nod",
+              "start": 18.37,
+              "end": 27,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_aarati",
+          "x": 1000,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_4c664",
+              "action": "cry",
+              "start": 0,
+              "end": 10.56,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4d6h7",
+              "action": "cry",
+              "start": 13.72,
+              "end": 18.72,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4e758",
+              "action": "cry",
+              "start": 18.72,
+              "end": 27,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_4f4hb",
+          "actor": 0,
+          "text": "अस्पतालमा डाक्टरले भने — धेरै रगत गइसकेको छ, तुरुन्तै रगत चढाउनुपर्छ।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.68,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_4h29g",
+          "actor": 0,
+          "text": "रामप्रसादजीको रगत ओ-नेगेटिभ हो। यो निकै दुर्लभ छ, हाम्रो भण्डारमा छैन।",
+          "start": 5.53,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.68,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1.05,
+          "pitch": 1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_4i5th",
+          "actor": 2,
+          "text": "डाक्टर साहेब, केही गर्नुहोस्! मेरो बुबालाई बचाउनुहोस्!",
+          "start": 10.56,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.16,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_4j59s",
+          "actor": 1,
+          "text": "डाक्टर साहेब, मेरो रगत पनि ओ-नेगेटिभ हो। मेरो रगत लिनुहोस्।",
+          "start": 14.07,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.3,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_4k6gk",
+          "actor": 2,
+          "text": "सुरज... उहाँले त तिमीलाई कति अपमान गर्नुभएको थियो...",
+          "start": 18.72,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.54,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_4l7ex",
+          "actor": 1,
+          "text": "आरती, रगतले जात सोध्दैन। उहाँ बाँच्नुपर्छ।",
+          "start": 22.61,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.78,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_4g2lh",
+          "text": "अस्पतालमा डाक्टरले भने — धेरै रगत गइसकेको छ, तुरुन्तै रगत चढाउनुपर्छ।",
+          "start": 0.5,
+          "end": 5.48,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 141
+    },
+    {
+      "id": "sc_4m2ho",
+      "name": "१५. माफी",
+      "background": "hospital_room",
+      "duration": 35,
+      "tod": "day",
+      "weather": "none",
+      "filter": "warm",
+      "vignette": true,
+      "transition": "dissolve",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ram",
+          "x": 520,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_4n42",
+              "action": "sit",
+              "start": 0,
+              "end": 3.25,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4oym",
+              "action": "sit_talk",
+              "start": 3.25,
+              "end": 6.03,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4p10t",
+              "action": "sit",
+              "start": 6.03,
+              "end": 11.41,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4q78a",
+              "action": "sit_talk",
+              "start": 11.41,
+              "end": 25.01,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4r38y",
+              "action": "cry",
+              "start": 25.01,
+              "end": 35,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_suraj2",
+          "x": 830,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_4s2b7",
+              "action": "namaste",
+              "start": 25.36,
+              "end": 29.28,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_aarati",
+          "x": 1000,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_4tcd",
+              "action": "cry",
+              "start": 6.38,
+              "end": 11.06,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_4u4ec",
+              "action": "cry",
+              "start": 29.63,
+              "end": 35,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_4v18k",
+          "actor": 0,
+          "text": "तीन दिनपछि रामप्रसादले आँखा खोले।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.4,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_4xk5",
+          "actor": 0,
+          "text": "म कहाँ छु? मलाई कसले बचायो?",
+          "start": 3.25,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.78,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.9,
+          "pitch": 0.72,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_4y36n",
+          "actor": 2,
+          "text": "बुबा, तपाईंलाई बाढीबाट निकाल्ने र आफ्नो रगत दिएर बचाउने... सुरज हुन्।",
+          "start": 6.38,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.68,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_4ztw",
+          "actor": 0,
+          "text": "सुरज? त्यही लोहारको छोरो, जसलाई मैले अपमान गरेँ?",
+          "start": 11.41,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.54,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.9,
+          "pitch": 0.72,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_507cz",
+          "actor": 0,
+          "text": "म जातको घमण्डमा अन्धो थिएँ। आज मेरो नसामा उसैको रगत बगिरहेको छ।",
+          "start": 15.3,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.06,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.9,
+          "pitch": 0.72,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_516bh",
+          "actor": 0,
+          "text": "बाबु सुरज, मलाई माफ गर। रगतको कुनै जात हुँदैन रहेछ।",
+          "start": 20.71,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.3,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.9,
+          "pitch": 0.72,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_523fv",
+          "actor": 1,
+          "text": "काका, माफी नमाग्नुहोस्। तपाईं मेरा पनि बुबा नै हुनुहुन्छ।",
+          "start": 25.36,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.92,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_534gz",
+          "actor": 2,
+          "text": "बुबा... आज मैले मेरो बुबालाई फेरि पाएँ।",
+          "start": 29.63,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.16,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_4w5tb",
+          "text": "तीन दिनपछि रामप्रसादले आँखा खोले।",
+          "start": 0.5,
+          "end": 3.2,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 151
+    },
+    {
+      "id": "sc_54585",
+      "name": "१६. दुई परिवार",
+      "background": "house_exterior",
+      "duration": 22,
+      "tod": "day",
+      "weather": "none",
+      "filter": "warm",
+      "vignette": true,
+      "transition": "dissolve",
+      "transitionDuration": 0.8,
+      "camera": {
+        "preset": "medium"
+      },
+      "actors": [
+        {
+          "characterId": "ch_ram",
+          "x": 680,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_557m0",
+              "action": "namaste",
+              "start": 5.53,
+              "end": 12.11,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_56790",
+              "action": "hug",
+              "start": 15.24,
+              "end": 22,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_hari",
+          "x": 900,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_57738",
+              "action": "surprised",
+              "start": 12.11,
+              "end": 12.46,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_58mx",
+              "action": "namaste",
+              "start": 12.46,
+              "end": 15.24,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_5918x",
+              "action": "hug",
+              "start": 15.24,
+              "end": 22,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_grandma",
+          "x": 1020,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_5a77n",
+              "action": "idle",
+              "start": 0,
+              "end": 15.59,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_5baz",
+              "action": "clap",
+              "start": 19.51,
+              "end": 22,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_5c1l5",
+          "actor": 0,
+          "text": "ठीक भएर रामप्रसाद आफैं हरि बिश्वकर्माको घर पुगे — हात जोडेर।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.68,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_5e2jj",
+          "actor": 0,
+          "text": "हरि दाइ, तपाईंको छोराले मलाई जीवन दियो। म आफ्नी छोरी आरतीलाई तपाईंको घरकी बुहारी बनाउन चाहन्छु।",
+          "start": 5.53,
+          "source": "tts",
+          "audioId": null,
+          "duration": 6.58,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.9,
+          "pitch": 0.72,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_5f231",
+          "actor": 1,
+          "text": "पण्डितज्यू... यो त हाम्रो सौभाग्य हो।",
+          "start": 12.46,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.78,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.8,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_5g246",
+          "actor": 2,
+          "text": "आज मेरो पुरानो पछुतो मेटियो। जात होइन, मन जोड्नुपर्छ।",
+          "start": 15.59,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.92,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 0.85,
+          "pitch": 0.7,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_5d4bs",
+          "text": "ठीक भएर रामप्रसाद आफैं हरि बिश्वकर्माको घर पुगे — हात जोडेर।",
+          "start": 0.5,
+          "end": 5.48,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 161
+    },
+    {
+      "id": "sc_5h24e",
+      "name": "१७. विवाह",
+      "background": "flower_garden",
+      "duration": 22,
+      "tod": "day",
+      "weather": "leaves",
+      "filter": "warm",
+      "vignette": true,
+      "transition": "circle",
+      "transitionDuration": 1.2,
+      "camera": {
+        "preset": "zoom_out"
+      },
+      "actors": [
+        {
+          "characterId": "ch_groom",
+          "x": 560,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_5i6sb",
+              "action": "hug",
+              "start": 11.44,
+              "end": 22,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_bride",
+          "x": 800,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_5j4ur",
+              "action": "laugh",
+              "start": 5.91,
+              "end": 8.69,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            },
+            {
+              "id": "ac_5k4c8",
+              "action": "hug",
+              "start": 11.44,
+              "end": 22,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_maya",
+          "x": 1000,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_5l70t",
+              "action": "clap",
+              "start": 11.79,
+              "end": 22,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_5m5f4",
+          "actor": 0,
+          "text": "फूलबारीले त्यो दिन अचम्मको विवाह देख्यो — दुई जातका परिवार एकै मण्डपमा।",
+          "start": 0.5,
+          "source": "tts",
+          "audioId": null,
+          "duration": 5.06,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_5o1r3",
+          "actor": 0,
+          "text": "आरती, आज मेरो सपना पूरा भयो।",
+          "start": 5.91,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.78,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_5p56b",
+          "actor": 1,
+          "text": "सुरज, हाम्रो मायाले पर्खाल भत्काइदियो।",
+          "start": 9.04,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.4,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 1,
+          "pitch": 1.05,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_5q164",
+          "actor": 2,
+          "text": "हे भगवान्, यी दुईको जोडी सधैं सुखी राख्नु।",
+          "start": 11.79,
+          "source": "tts",
+          "audioId": null,
+          "duration": 3.54,
+          "voice": "Microsoft हेमकला Online (Natural) - Nepali (Nepal)",
+          "rate": 0.95,
+          "pitch": 0.88,
+          "volume": 1,
+          "bubble": true,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": false
+        },
+        {
+          "id": "dl_5r2y2",
+          "actor": 0,
+          "text": "त्यो दिन फूलबारीमा जातको पर्खाल ढल्यो, र मानवताको झन्डा फहरियो।",
+          "start": 15.68,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.3,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_5neh",
+          "text": "फूलबारीले त्यो दिन अचम्मको विवाह देख्यो — दुई जातका परिवार एकै मण्डपमा।",
+          "start": 0.5,
+          "end": 5.86,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_5s6sy",
+          "text": "त्यो दिन फूलबारीमा जातको पर्खाल ढल्यो, र मानवताको झन्डा फहरियो।",
+          "start": 15.68,
+          "end": 20.28,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        }
+      ],
+      "seed": 171
+    },
+    {
+      "id": "sc_5tin",
+      "name": "१८. सन्देश",
+      "background": "mountain_peak",
+      "duration": 22,
+      "tod": "sunset",
+      "weather": "sunrays",
+      "filter": "warm",
+      "vignette": true,
+      "transition": "dissolve",
+      "transitionDuration": 1.2,
+      "camera": {
+        "preset": "zoom_out"
+      },
+      "actors": [
+        {
+          "characterId": "ch_groom",
+          "x": 560,
+          "y": 650,
+          "facing": 1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_5u6ug",
+              "action": "idle",
+              "start": 0,
+              "end": 21,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        },
+        {
+          "characterId": "ch_bride",
+          "x": 730,
+          "y": 650,
+          "facing": -1,
+          "scale": 1,
+          "orientation": "side",
+          "idleAction": "idle",
+          "autoGesture": true,
+          "actions": [
+            {
+              "id": "ac_5v1ic",
+              "action": "idle",
+              "start": 0,
+              "end": 21,
+              "toX": null,
+              "toY": null,
+              "facing": 0
+            }
+          ]
+        }
+      ],
+      "dialogs": [
+        {
+          "id": "dl_5w76u",
+          "actor": 0,
+          "text": "नेपालमा जातीय भेदभाव कानुनले दण्डनीय अपराध मानेको छ, तर यसलाई साँचो अर्थमा हटाउने काम हाम्रो मनले गर्नुपर्छ।",
+          "start": 1,
+          "source": "tts",
+          "audioId": null,
+          "duration": 6.96,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_5y7fs",
+          "actor": 0,
+          "text": "मान्छे जातले होइन, कर्मले ठूलो हुन्छ।",
+          "start": 8.76,
+          "source": "tts",
+          "audioId": null,
+          "duration": 2.78,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        },
+        {
+          "id": "dl_602ka",
+          "actor": 0,
+          "text": "माया जात हेर्दैन, रगतले धर्म सोध्दैन। आउनुहोस्, मानवताको पर्खाल बनाऔं।",
+          "start": 11.89,
+          "source": "tts",
+          "audioId": null,
+          "duration": 4.3,
+          "voice": "Microsoft सागर Online (Natural) - Nepali (Nepal)",
+          "rate": 0.92,
+          "pitch": 0.9,
+          "volume": 1,
+          "bubble": false,
+          "bubbleStyle": "",
+          "trimStart": 0,
+          "trimEnd": 0,
+          "silent": true
+        }
+      ],
+      "captions": [
+        {
+          "id": "cp_5x28l",
+          "text": "नेपालमा जातीय भेदभाव कानुनले दण्डनीय अपराध मानेको छ, तर यसलाई साँचो अर्थमा हटाउने काम हाम्रो मनले गर्नुपर्छ।",
+          "start": 1,
+          "end": 8.26,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_5z3p4",
+          "text": "मान्छे जातले होइन, कर्मले ठूलो हुन्छ।",
+          "start": 8.76,
+          "end": 11.84,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_611uq",
+          "text": "माया जात हेर्दैन, रगतले धर्म सोध्दैन। आउनुहोस्, मानवताको पर्खाल बनाऔं।",
+          "start": 11.89,
+          "end": 16.49,
+          "style": "subtitle",
+          "position": "bottom",
+          "size": 0.048,
+          "color": "#ffffff",
+          "font": "body"
+        },
+        {
+          "id": "cp_622di",
+          "text": "मायाको कुनै जात हुँदैन",
+          "start": 16.8,
+          "end": 21.5,
+          "style": "title",
+          "position": "center",
+          "size": 0.09,
+          "color": "#ffd166",
+          "font": "display"
+        },
+        {
+          "id": "cp_632f3",
+          "text": "समाप्त",
+          "start": 21.5,
+          "end": 22,
+          "style": "title",
+          "position": "center",
+          "size": 0.07,
+          "color": "#ffffff",
+          "font": "display"
+        }
+      ],
+      "seed": 181
+    }
+  ],
+  "music": {
+    "audioId": null,
+    "volume": 0.35,
+    "loop": true
+  }
+}

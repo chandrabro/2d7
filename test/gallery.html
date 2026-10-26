@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Scene gallery</title>
+<style>
+  body { margin: 0; background: #222; color: #eee; font: 12px sans-serif; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; padding: 6px; }
+  figure { margin: 0; }
+  figcaption { padding: 2px 4px; }
+  canvas { width: 100%; display: block; background: #000; }
+  #err { color: #f66; white-space: pre-wrap; padding: 6px; }
+</style>
+</head>
+<body>
+<div id="err"></div>
+<div class="grid" id="grid"></div>
+<script type="module">
+  // Usage: gallery.html?file=daily&tod=day&t=2   (file = category file name without .js, or "all")
+  const q = new URLSearchParams(location.search);
+  const file = q.get('file') || 'all';
+  const tod = q.get('tod') || 'day';
+  const t = parseFloat(q.get('t') || '1.5');
+  const weather = q.get('weather') || 'none';
+  const err = document.getElementById('err');
+  window.addEventListener('error', (e) => { err.textContent += e.message + '\n'; });
+  try {
+    let scenes;
+    if (file === 'all') scenes = (await import('../js/engine/scenes/index.js')).SCENES;
+    else scenes = (await import(`../js/engine/scenes/${file}.js`)).default;
+    const grid = document.getElementById('grid');
+    for (const s of scenes) {
+      const fig = document.createElement('figure');
+      const c = document.createElement('canvas'); c.width = 1280; c.height = 720;
+      const cap = document.createElement('figcaption'); cap.textContent = `${s.id} — ${s.name} (ground ${s.groundY}, horizon ${s.horizonY})`;
+      fig.append(c, cap); grid.append(fig);
+      const ctx = c.getContext('2d');
+      const env = { W: 1280, H: 720, t, tod, seed: 1, weather };
+      try {
+        s.paint(ctx, env);
+        if (s.paintFront) s.paintFront(ctx, env);
+        // draw ground/horizon guides
+        ctx.strokeStyle = 'rgba(255,0,0,0.6)'; ctx.lineWidth = 2; ctx.setLineDash([8, 8]);
+        ctx.beginPath(); ctx.moveTo(0, s.groundY * 720); ctx.lineTo(1280, s.groundY * 720); ctx.stroke();
+        ctx.strokeStyle = 'rgba(0,255,0,0.6)'; ctx.beginPath(); ctx.moveTo(0, s.horizonY * 720); ctx.lineTo(1280, s.horizonY * 720); ctx.stroke();
+        ctx.setLineDash([]);
+      } catch (e) { err.textContent += `${s.id}: ${e.stack}\n`; }
+    }
+  } catch (e) { err.textContent += e.stack; }
+  document.body.dataset.done = '1';
+</script>
+</body>
+</html>
